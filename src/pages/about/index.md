@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About our values
+title: "About our values The When tere "
 seo: Change SEo TItle to new On
 ---
 ### Shade-grown coffee
