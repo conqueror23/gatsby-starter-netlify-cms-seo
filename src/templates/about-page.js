@@ -65,6 +65,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        seo
       }
     }
   }
