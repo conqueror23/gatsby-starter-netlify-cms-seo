@@ -33,6 +33,7 @@ export const AboutPageTemplate = ({
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  seo: PropTypes.string,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
