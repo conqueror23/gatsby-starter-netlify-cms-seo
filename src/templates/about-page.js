@@ -40,13 +40,14 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
+  console.log("post here", post);
 
   return (
-    <Layout customisedSeoTitle={post.seo}>
+    <Layout customisedSeoTitle={post.frontmatter.seo}>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        seo={post.seo}
+        seo={post.frontmatter.seo}
         content={post.html}
       />
     </Layout>
