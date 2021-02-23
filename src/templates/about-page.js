@@ -42,7 +42,7 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <Layout>
+    <Layout customisedSeoTitle={post.seo}>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
